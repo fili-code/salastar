@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>Nada</title>
+  <style>
+     body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      animation: fondoColores 10s infinite alternate;
+      transition: background 1s;
+     }
+
+    @keyframes fondoColores {
+      0% { background-color: #3498db; } /* Azul */
+      25% { background-color: #9b59b6; } /* Morado */
+      50% { background-color: #e74c3c; } /* Rojo */
+      75% { background-color: #2ecc71; } /* Verde */
+      100% { background-color: #f39c12; } /* Naranja */
+    }
+    .contenedor {
+      text-align: center;
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>¡Bienvenido!</h1>
+    <p>Por favor espera unos segundos mientras cargamos tu experiencia...</p>
+  <audio controls autoplay>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+</body>
+</html>
